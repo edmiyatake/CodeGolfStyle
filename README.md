@@ -1,7 +1,7 @@
-# TermFreqGolf - Code Golf Style
+# TopWordFrequency Program - Code Golf Style
 
 ## Overview
-`TermFreqGolf.java` is a compact, minimalist Java program written in a **Code Golf** style. The main goal of this implementation is **brevity**—expressing functionality in as few lines of code as possible while still producing correct output.
+`Seven.java` is a compact, minimalist Java program written in a **Code Golf** style. The main goal of this implementation is **brevity**—expressing functionality in as few lines of code as possible while still producing correct output.
 
 This version:
 - Loads stop words in a single chained expression.
@@ -37,6 +37,10 @@ Place the following files in the same folder:
 
 4. Run the program:
    java Seven pride-and-prejudice.txt
+
+** For the repl.it, the text files will be in the main directory, so you have to use ../../../path to access files from the main parent directory.
+
+Example: java Seven ../../../stopwords.txt ../../../pride-prejudice.txt
 
 ## Expected Output
 ---------------
